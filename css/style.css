@@ -168,7 +168,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .08em;
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
 }
 
 .data-storage__storage-left span {
@@ -177,7 +177,7 @@ body {
     vertical-align: middle;
     letter-spacing: 0.001em;
     position: relative;
-    top: -0.3rem;
+    top: -0.4rem;
 }
 
 .data-storage__min-max {
