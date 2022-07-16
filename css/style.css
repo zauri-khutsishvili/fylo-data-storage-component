@@ -35,7 +35,7 @@ body {
 .data-storage {
     font-family: 'Raleway', sans-serif;
     color: white;
-    margin-top: -2rem;
+    margin-top: -2.1rem;
     width: 92rem;
     display: flex;
     gap: calc(3 / 92 * 100%);
@@ -50,7 +50,7 @@ body {
 }
 
 .data-storage__logo {
-    margin-bottom: 3.1rem;
+    margin-bottom: 3rem;
 }
 
 .data-storage__buttons {

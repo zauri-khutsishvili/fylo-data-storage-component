@@ -4,7 +4,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/testimonials-grid-section-wGThuPYJKF](https://www.frontendmentor.io/solutions/testimonials-grid-section-wGThuPYJKF)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-data-storage-component-sN0l3CK5h9](https://www.frontendmentor.io/solutions/fylo-data-storage-component-sN0l3CK5h9)
 - Live Site URL: [https://zauri-khutsishvili.github.io/fylo-data-storage-component/](https://zauri-khutsishvili.github.io/fylo-data-storage-component/)
 
 ## Built with
