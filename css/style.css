@@ -21,7 +21,6 @@ html {
 
 body {
     min-height: 100vh;
-    margin: 0 2.45rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,13 +28,13 @@ body {
     background-image: url(../images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: left 0 bottom 0;
-
+    position: relative;
 }
 
 .data-storage {
     font-family: 'Raleway', sans-serif;
     color: white;
-    margin-top: -2.1rem;
+    margin: 5.9rem 2.45rem 8rem;
     width: 92rem;
     display: flex;
     gap: calc(3 / 92 * 100%);
@@ -193,9 +192,10 @@ body {
     font-size: 1.2rem;
 }
 
-@media (min-width: 90em) {
+@media (min-width: 1440px) {
     body {
         background-size: contain;
+        background-position: left 0 bottom -3vw;
     }
 }
 
@@ -207,7 +207,7 @@ body {
     }
 
     .data-storage {
-        margin-top: -3.7rem;
+        margin-top: 4.4rem;
         flex-direction: column;
         gap: 1.6rem;
         align-items: center;
@@ -249,13 +249,30 @@ body {
     }
 
     @media (max-width: 21.5em) {
+        *, *::before, *::after {
+            transition: .1s ease;
+        }
+
         .data-storage__main {
-            padding: 15.38%;
+            padding: 15%;
+        }
+
+        .data-storage__logo {
+            width: 63.38%;
         }
 
         .data-storage__storage {
-            padding: 12.3%;
+            padding: 12%;
             height: 17.5rem;
+        }
+
+        .data-storage__remaining {
+            width: 60%;
+            height: 35%;
+        }
+
+        .data-storage__storage-left span {
+            font-size: 3.2rem;
         }
     }
 }
